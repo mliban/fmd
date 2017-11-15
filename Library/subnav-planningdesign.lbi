@@ -1,0 +1,12 @@
+
+    <!-- Sub Navigation -->
+    
+    <h3><a href="../planningdesign/index.html">Planning <br />and Design</a></h3>
+    <ul id="sub-nav">
+      <li><a href="../planningdesign/interiordesign.html" class="nav-header">Interior Design </a></li>
+      <li><a href="../planningdesign/signage.html" class="nav-header">Signage Standards</a></li>
+      <li><a href="../planningdesign/space.html" class="nav-header">Room Numbering</a></li>
+      <li><a href="../planningdesign/resources.html" class="nav-header">Resources</a></li>
+    </ul>
+
+

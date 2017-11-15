@@ -1,0 +1,21 @@
+
+    <!-- Sub Navigation -->
+
+    <h3><font color="#6c5e59"><a href="../construction/index.html">Construction</a></font></h3>
+    <ul id="sub-nav">
+      <li class="nav-projects"><a href="../construction/projects/index.html" class="nav-header">Projects Underway</a>
+      	<ul class="section">
+        	<li><a href="../construction/projects/westgracesouth.html">West Grace Street South</a></li>
+            <li><a href="../construction/projects/medicaleducationcenter.html">McGlothlin Medical Education Center</a></li>
+            <li><a href="../construction/projects/ica.html">Institute for Contemporary Art</a></li>
+        </ul>
+ </li>
+      <li class="nav-renovations"><a href="../construction/renovations/index.html" class="nav-header">University Renovations</a>
+      	<ul class="section">
+        	<li><a href="../construction/renovations/survey.html">Customer Survey Form </a></li>
+         </ul>
+         </li>
+       
+      <li><a href="../construction/minorityinfo.html" class="nav-header">Minority Information</a></li>
+    </ul>
+

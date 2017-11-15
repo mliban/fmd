@@ -1,0 +1,428 @@
+/* CSS Document 
+Site: VCU Viewbook
+*/
+
+html {font-size:100.01%;}
+body {margin:0; padding:0 ; background:#fff/*#00a4d8*/; font:12px/1.7 Arial, Helvetica, sans-serif; color:#0d1e1f;}
+
+/* Links
+-------------------------------------------------------------------------------------*/
+	a:link, a:visited, a:active {padding-bottom:.1em; color:#00a4d8; text-decoration: none;}
+	a:hover {color:#6e1c00; /*background:#eee;*/}
+	a:active, a:focus {text-decoration:none;}
+	
+
+/* Layout
+-------------------------------------------------------------------------------------*/
+	/* header */
+	#header-wrapper {background:#fff url(../../css/main/images/layout/header-bg.gif) 0 0 repeat-x; width:100%; height:98px; margin:0;}
+	#header {position:relative; width:960px; height:98px; margin:0 auto;}
+	#identity {width:960px; height:98px;  margin:0; padding:0;}
+	
+	/* content */
+	#global-wrapper {position:relative; width:100%; background:#fff; margin:0 auto; padding:0;}
+	#content-wrapper {position:relative; width:100%; background:#fff; margin:0 auto; padding:0; /*z-index:0;*/}
+	#content-container {position:relative; width:960px; margin:0 auto; padding:35px 0 0 0;}
+	#secondary-content {float:left; width:190px; padding-top:0;}
+	#primary-content {float:right; width:760px; min-height:400px;}
+	#primary-content .gutter {padding:10px 30px 10px; margin:0; border-left:1px solid #c7c7c7;}
+
+
+/* Identity links
+-------------------------------------------------------------------------------------*/
+	#identity #site-name, 
+	#identity #vcu-name {text-indent:-9999px;}
+	#identity #site-name a {background: url(../../css/images/layout/logo-vcu.png) 0 0 no-repeat; position:absolute; top:45px; left:0; width:115px; height:40px; z-index:3; font-size:30px; color:#444;}
+	#identity #vcu-name a {background: url(../../css/images/layout/bar-vcu.png) top center no-repeat; position:absolute; top:0; left:0; width:100%; height:28px; z-index:2; font-size:18px; color:#444;}
+	#identity a, 
+	#identity a:hover, 
+	#identity a:visited {background:none; text-decoration:none; border:0; margin:0; padding:0;}
+	#identity a:focus {outline:none;}
+	
+	
+/* Feature video
+-------------------------------------------------------------------------------------*/	
+	/*#feature-wrapper {width:100%; height:435px; text-align:center; background:#fff; padding:0 0 30px; border-top:1px solid #c1c4c4; border-bottom:1px solid #c1c4c4;}
+	#feature-wrapper .gutter {width:100%; max-width:720px; height:100%;  max-height:435px; text-align:center; margin:0 auto; padding:30px 0 0;}*/
+	
+		#feature-wrapper {width:100%; height:auto; text-align:center; background:#fff; padding:0 0 32px; border-top:1px solid #c1c4c4; border-bottom:1px solid #c1c4c4;}
+		#feature-wrapper .gutter {width:100%; height:100%; max-height:435px; text-align:center; margin:0 auto; padding:32px 0 0;}
+		
+	/* Flash video elastic */
+		.video-container {position:relative; background:none; margin:0; padding:0; padding-bottom: 56%; width:100%; height:0; overflow:hidden;}
+	    .video-container object#flasher,
+		.video-container embed
+			{/*position:absolute; top:0; left:0; */width:100%; max-width:720px; height:405px; background:none;}
+		
+	/* Poster image fallback */
+		.video-container img {width:100%; max-width:720px; height:auto; max-height:405px; background:none;}
+		.video-container img.home-poster {visibility:hidden; display:none !important;}
+		
+	/* HTML5 video element elastic */
+		video {width:720px; max-width: 100%; height: auto; max-height:405px;}
+		
+	
+	/* Set feature video background photo */
+	body.home #feature-wrapper {background:#f1f4f4 url(../../css/images/layout/feature-bg-home.jpg) center -97px no-repeat;}
+	body.dining #feature-wrapper {background:#fff;}
+	body.housing #feature-wrapper {background:#fff;}
+	body.sports #feature-wrapper {background:#fff url(../../css/images/layout/feature-bg-sports.jpg) center 1px no-repeat;}
+	body.students #feature-wrapper {background:#fff;}
+	body.academics #feature-wrapper {background:#fff;}
+	
+	
+/* Slideshow (using jCycle - http://jquery.malsup.com/cycle/pager11.html)
+-------------------------------------------------------------------------------------*/
+	#slideshow-wrapper {float:left; margin:25px 0 0 -200px; width:960px; padding:0; background:none;}
+	#slideshow-wrapper .gutter {}
+	#slideshow-wrapper #slideshow-content,
+	#slideshow-wrapper #slideshow {float:left; display:block; width:100%; max-width:480px; max-height:360px; overflow:hidden; background:#000; margin:0; padding:0;}
+	#slideshow-wrapper #slideshow-text {float:left; width:380px; padding:30px 0 0 30px;}
+	
+	/* jCycle - pics */
+	.pics img {
+			display:block;
+			margin:0; 
+			padding:0;
+			top: 0;
+			left: 0;
+			width: 100%;
+			max-width: 480px;
+			height: auto;
+			position: absolute;
+			}
+	
+	/* jCycle - controls */
+	#slideshow-controls {text-align:center; width:410px; height:20px; margin:0 auto; padding:10px 0 0;}
+	#slideshow-controls a {background:none; border:0; text-decoration:none;}
+	
+	/* jCycle - prev/next */
+	a#pics-prev,
+	a#pics-next {display:inline; width:12px; height:19px; text-indent:-9999px;}
+	a#pics-prev {float:left; background:transparent url(../../css/images/layout/slideshow-controls.gif) -23px 0 no-repeat;}
+	a#pics-prev:hover {background-position:0 0;}
+	a#pics-next {float:right; background:transparent url(../../css/images/layout/slideshow-controls.gif) -194px 0 no-repeat;}
+	a#pics-next:hover {background-position:-217px 0;}
+	
+	/* jCycle - pager nav */
+	ul#cycle-nav {position:relative; width:268px; height:26px; margin:0 auto !important; padding:2px !important; z-index:300; overflow:visible;}
+	ul#cycle-nav li {float:left; list-style:none; margin:0; padding:0; text-indent:-9999px;}
+	ul#cycle-nav a {display:block; height:19px; width:14px; margin:0; padding:0; border:0; background:transparent url(../../css/images/layout/slideshow-controls.gif) -103px 0 no-repeat; text-decoration:none;}
+	ul#cycle-nav li a:hover {background-position:-137px 0;}
+	ul#cycle-nav li.activeSlide a {background-position:-69px 0;}
+	ul#cycle-nav a:focus {outline:none;}
+	
+	#slideshow {
+			width: 100%;
+			position: relative;
+			/* If you want to add content below the slideshow add 
+			overflow: hidden and height here. Also make this container 
+			smaller in height than the images and adjust the height 
+			with every @media query trigger point. */
+		}
+		img {
+			top: 0;
+			left: 0;
+			width: 100%;
+			max-width: 600px;
+			height: auto;
+			position: absolute;
+		}
+	
+	
+
+/* Navigation -- Main
+-------------------------------------------------------------------------------------*/
+    .mobile-navlink {display:none;}
+	ul#main-nav {position:absolute; top:70px; left:190px; z-index:150; display:block; list-style:none; margin:0; padding:0; width:650px; height:28px;}
+	ul#main-nav li {float:left; color:#fff; margin:0 27px 0 0; padding:0; display:inline;}
+	ul#main-nav li a {background: url(../../css/images/layout/main-nav.gif) 0 0 no-repeat; border:0; display:block; height:28px; margin:0; padding:0; font-size:12px; color:#fff; text-decoration:none; text-indent:-9999px;}
+	ul#main-nav li a:hover {color:#555;}
+	ul#main-nav li a:focus {border:0; outline:none;}
+	ul#main-nav .mCurrent {color:#eee; background:#444 !important;}
+
+	/* Set width of each link */
+	ul#main-nav li.nav-dining a {width: 51px;}
+	ul#main-nav li.nav-housing a {width: 66px;}
+	ul#main-nav li.nav-sports a {width: 189px;}
+	ul#main-nav li.nav-students a {width: 106px;}
+	ul#main-nav li.nav-academics a {width: 85px; margin-right:0;}
+	  
+	/* set background img position */
+
+	/* Dining */
+	ul#main-nav li.nav-dining a:link, ul#main-nav li.nav-dining a:visited {background-position: 0 0;}
+	ul#main-nav li.nav-dining a:hover, ul#main-nav li.nav-dining a:focus {background-position: 0 -28px;}
+	body.dining ul#main-nav li.nav-dining a:link, body.dining ul#main-nav li.nav-dining a:visited {background-position: 0 -56px;}
+
+	/* Housing */
+	ul#main-nav li.nav-housing a:link, ul#main-nav li.nav-housing a:visited {background-position: -78px 0;}
+	ul#main-nav li.nav-housing a:hover, ul#main-nav li.nav-housing a:focus {background-position: -78px -28px;}
+	body.housing ul#main-nav li.nav-housing a:link, body.housing ul#main-nav li.nav-housing a:visited {background-position: -78px -56px;}
+
+	/* Sports */
+	ul#main-nav li.nav-sports a:link, ul#main-nav li.nav-sports a:visited {background-position: -172px 0;}
+	ul#main-nav li.nav-sports a:hover, ul#main-nav li.nav-sports a:focus {background-position: -172px -28px;}
+	body.sports ul#main-nav li.nav-sports a:link, body.sports ul#main-nav li.nav-sports a:visited {background-position: -172px -56px;}
+
+	/* Students */
+	ul#main-nav li.nav-students a:link, ul#main-nav li.nav-students a:visited {background-position: -389px 0;}
+	ul#main-nav li.nav-students a:hover, ul#main-nav li.nav-students a:focus {background-position: -389px -28px;}
+	body.students ul#main-nav li.nav-students a:link, body.students ul#main-nav li.nav-students a:visited {background-position: -389px -56px;}
+
+	/* Academics */
+	ul#main-nav li.nav-academics a:link, ul#main-nav li.nav-academics a:visited {background-position: -523px 0;}
+	ul#main-nav li.nav-academics a:hover, ul#main-nav li.nav-academics a:focus {background-position: -523px -28px;}
+	body.academics ul#main-nav li.nav-academics a:link, body.academics ul#main-nav li.nav-academics a:visited {background-position: -523px -56px;}
+	
+	/* Apply Now btn */
+	p#apply-link {position:absolute; top:24px; right:-4px; width:116px; height:120px; z-index:10;}
+	p#apply-link a,
+	p#apply-link a:visited,
+	p#apply-link a:hover,
+	p#apply-link a:active {background:transparent url(../../css/images/layout/link-apply.png) 0 10px no-repeat; border:0; display:block; width:116px; height:115px; margin:0; padding:0; text-indent:-9999px; outline:none;}
+	p#apply-link a:hover {background-position:0 -101px; height:120px; }
+	
+	
+
+/* Navigation -- Page (Previous/Next)
+-------------------------------------------------------------------------------------*/
+	#page-nav-wrapper {background:#fff; width:100%; height:123px; padding:30px 0;}
+	#page-nav {width:960px; margin:0 auto; padding:0; border-top:1px solid #666; border-bottom:1px solid #666;}
+	#page-nav dt {display:none;}
+	#page-nav dd {display:inline; margin:0; padding:0; width:480px; height:123px;}
+	#page-nav dd a,
+	#page-nav dd a:visited {border:0;  width:300px; height:110px; padding:13px 0 0 180px; display:block; text-decoration:none;}
+	#page-nav dd a:hover {/*background:#333 !important;*/ cursor:pointer;}
+	
+	#page-nav dd a {background:transparent url(../../css/images/layout/page-nav-imgs.jpg) 0 0 no-repeat;}
+	
+	/* previous */
+	#page-nav dd#page-previous {float:left; background:transparent url(../../css/images/layout/page-nav-arrows.gif) 0 0 no-repeat;}
+	#page-nav dd#page-previous:hover {background-position: 0 -246px;}
+	#page-nav dd#page-previous a,
+	#page-nav dd#page-previous a:visited {float:left;}
+	#page-nav dd#page-previous a:hover {}
+	/* next */
+	#page-nav dd#page-next {float:right; background:transparent url(../../css/images/layout/page-nav-arrows.gif) 0 -123px no-repeat;}
+	#page-nav dd#page-next:hover {background-position: 0 -370px;}
+	#page-nav dd#page-next a,
+	#page-nav dd#page-next a:visited {float:right;}
+	#page-nav dd#page-next a:hover {}
+	
+	/* text */
+	#page-nav span.title {color:#121212; font-size:16px;}
+	#page-nav span.desc {color:#333 !important; font-weight:normal;}
+	
+	/* // Set page nav img for section */
+	
+	/* Dining */
+	body.dining dd#page-previous a {background-position: 55px -537px;}
+	body.dining dd#page-next a {background-position: 35px -265px;}
+	/* Housing */
+	body.housing dd#page-previous a {background-position: 70px 26px;}
+	body.housing dd#page-next a {background-position: 42px -118px;}
+	/* Sports */
+	body.sports dd#page-previous a {background-position: 40px -265px;}
+	body.sports dd#page-next a {background-position: 68px -407px;}
+	/* Students */
+	body.students dd#page-previous a {background-position: 45px -118px;}
+	body.students dd#page-next a {background-position: 48px -537px;}
+	/* Academics */
+	body.academics dd#page-previous a {background-position: 68px -407px;}
+	body.academics dd#page-next a {background-position: 70px 26px;}
+	
+
+/* Sidebar -- resource links
+-------------------------------------------------------------------------------------*/
+	#secondary-content ul {position:relative; margin:0; padding:0; z-index:150;}
+	#secondary-content li {list-style:none; margin-bottom:.25em;}
+	#secondary-content li a {}
+	#secondary-content li a:hover {}
+	
+	#sub-nav {padding-bottom:1.5em;}
+	
+	
+/* Background images in primary content area
+-------------------------------------------------------------------------------------*/
+	/* Margins for primary content bg image */
+	#primary-content p {position:relative; z-index:3; padding-right:100px;}
+	#primary-content h2,
+	#primary-content h3 {position:relative; z-index:3;}
+	#primary-content p.img-gutter {padding-right:330px;}
+	body.academics #primary-content p.img-gutter {padding-right:400px;}
+	
+	/* Background img container */
+	#primary-bg-img {position:absolute; z-index:1; top:120px; right:0; width:100%; height:500px; overflow:visible;}
+	
+	/* Set section background images */
+	body.dining #content-wrapper {max-width:1280px; background: url(../../css/images/layout/primary-bg-dining.jpg) 100% 125px no-repeat;}
+	body.housing #content-wrapper {max-width:1280px; background: url(../../css/images/layout/primary-bg-housing.jpg) 95% 110px no-repeat;}
+	body.sports #content-wrapper {max-width:1280px; background: url(../../css/images/layout/primary-bg-sports.jpg) 100%  190px no-repeat;}
+	body.students #content-wrapper {max-width:1280px; background:#fff url(../../css/images/layout/primary-bg-students.jpg) 100% 130px no-repeat;}
+	body.academics #content-wrapper {max-width:1280px; background: url(../../css/images/layout/primary-bg-academics.jpg) 100% 180px no-repeat;}
+
+
+/* Typography
+-------------------------------------------------------------------------------------*/
+	#primary-content p, #primary-content li /* content area */
+ 		{font-size:14px; margin-top:0; margin-bottom:1.5em; line-height: 1.6em;}
+	
+	/* Headers */
+	#page-title h1 {width:880px; height:44px;margin:2px auto; padding:20px 20px 0; font:22px Helvetica, Arial, san-serif;}
+	#primary-content h1, 
+	#primary-content h2, 
+	#primary-content h3 {font-family:Arial, Helvetica, sans-serif;}
+	#primary-content h2 {font-size: 24px; color:#222; margin:0; padding:0 0 .5em;}
+	#primary-content h3 {font-weight: bold; font-size: 16px; margin:2em 0 .5em 0; padding-bottom: 5px; color:#222;}
+	#primary-content h3.first {margin-top:0; padding-top:0;}
+	#primary-content h4 {font-weight: bold; font-size: 14px; margin:1.5em 0 0 0; padding:0 0 4px;}
+	#primary-content h5 {font-weight: bold; font-size: 12px; margin: 0 0 5px 0;  font-size: 1.1em;}
+	
+	/* Lists */
+	#primary-content ul {margin:1.5em 0 1.5em 20px; padding:0;}
+	#primary-content ol {margin:1.5em 0 1.5em 15px;}
+	#primary-content li li {font-size: 1.0em;}
+	#primary-content ul li {margin:0 0 1em 0; list-style-type: none; background: url(../../css/main/images/layout/li-bullet.gif) 0 7px no-repeat; padding-left:12px;}
+	#primary-content ul li a.imglink img {margin-bottom:-3px;} /* icon links (pdf) */
+	#primary-content li p {font-size: 1.0em;}
+	#primary-content ol li {list-style: decimal;}
+	#primary-content dl {}
+	#primary-content dt {font-size:14px; font-weight: bold; margin: 0; padding: 0;}
+	#primary-content dd {font-size:14px; margin: 0 0 1.5em 0; padding: 0;}
+	#primary-content ul ul {margin-top: .5em; margin-bottom:0;}
+	#primary-content ul ul li {background: url(../../css/images/layout/li-bullet-sub.gif) 0 8px no-repeat; padding-left:12px;}
+	
+	/* disclaimer text */
+	p.disclaimer {font-size:10px; line-height:1.6; color:#888;}
+	
+	
+	
+/* Header replacement images for content area
+-------------------------------------------------------------------------------------*/
+	#primary-content h2,
+	#primary-content h3,
+	#sub-nav h3,
+	/*#page-nav span.title,*/
+	#footer h3 {display:block; min-width:300px; height:30px; overflow:hidden; text-indent:-9999px; margin:0; padding:0;
+		background: url(../../css/images/layout/viewbook-hdr-imgs.png) 0 0 no-repeat;}
+		
+	/* margin above second header */
+	#primary-content h3 {margin-top:60px;}
+	
+	/* resources header */
+	#sub-nav h3 {background-position: -2px  -2px;}
+	
+	/* content area headers */
+	body.dining #primary-content h2 {background-position: -2px -40px;}
+	body.dining #primary-content h3 {background-position: -2px -72px;}
+	body.housing #primary-content h2 {background-position: -2px -109px;}
+	body.housing #primary-content h3 {background-position: -2px -142px;}
+	body.sports #primary-content h2 {background-position: -2px -181px;}
+	body.sports #primary-content h3 {background-position: -2px -213px;}
+	body.students #primary-content h2 {background-position: -2px -252px;}
+	body.students #primary-content h3 {background-position: -2px -282px;}
+	body.academics #primary-content h2 {background-position: -2px -321px;}
+	body.academics #primary-content h3 {background-position: -2px -352px;}
+	
+	/* page nav headers */
+	/*body.dining #page-nav dd#page-previous span.title {background-position: -2px -403px;}
+	body.dining #page-nav dd#page-next span.title {background-position: -2px -403px;}
+	body.housing #page-nav dd#page-previous span.title {background-position: -2px -403px;}
+	body.housing #page-nav dd#page-next span.title {background-position: -2px -403px;}
+	body.sports #page-nav dd#page-previous span.title {background-position: -2px -403px;}
+	body.sports #page-nav dd#page-next span.title {background-position: -2px -404px;}
+	body.students #page-nav dd#page-previous span.title {background-position: -2px -462px;}
+	body.students #page-nav dd#page-next span.title {background-position: -2px -530px;}
+	body.academics #page-nav dd#page-previous span.title {background-position: -2px -498px;}
+	body.academics #page-nav dd#page-next span.title {background-position: -2px -403px;}*/
+	
+	/* footer headers */
+	#footer .col-a h3 {background-position: -4px -578px;}
+	#footer .col-b h3 {background-position: -4px -610px;}
+	#footer .col-c h3 {background-position: -4px -640px;}
+	
+	
+	
+/* WebType info for BentonSansRE Regular
+-------------------------------------------------------------------------------------*/
+	/*.bentonsansre {font-family: "Benton Sans RE"; font-style: normal; font-weight: normal;}*/
+	#primary-content p, 
+	#secondary-content p,
+	#primary-content li, 
+	#secondary-content li,
+	#primary-content dt,
+	#primary-content dd,
+	#footer dt,
+	#footer dd,
+	#footer p,
+	#page-nav-wrapper,
+	#footer li
+		{font-family: "Benton Sans RE", Arial, san-serif !important; font-style: normal; font-weight: normal;}
+
+
+/* Images
+-------------------------------------------------------------------------------------*/
+	img {border: 0;}
+	a.imglink, 
+	a:hover.imglink {margin:0; padding:0; border:0; text-decoration:none; background:none;}
+	.imgright {float: right; padding: 4px; border: 1px solid #d4d3c7; margin: 0 0 1.5em 1.5em; background: #fff;}
+	.imgleft {float: left; padding: 4px; border: 1px solid #d4d3c7; margin: 0 1.5em 1.5em 0; background: #fff;}
+	
+	/* photos w/ caption box */
+	.photo-right {margin: 5px 0 15px 15px; float: right; border:1px solid #c7c7c7; padding:3px; background:#fff;}	
+	.photo-left {margin: 5px 15px 15px 0; float: left; border:1px solid #c7c7c7; padding:3px; background:#fff;}	
+	.photo-right img, 
+	.photo-left img {padding-bottom:1px;}
+	
+
+/* Footer
+-------------------------------------------------------------------------------------*/
+	#footer {clear:both; width:100%; margin:0; padding:0; background:#00a4d8;}
+	#footer .gutter {width:960px; margin:0 auto; padding:30px 0;}
+	#footer ul {list-style:none; clear:right; margin:.75em 0 0; padding:0 0 30px 0;}
+	#footer .gutter li {color:#fff !important; margin:0; padding:0; line-height: 1.5em;}
+	#footer .gutter li.updated {color: #fff;}	
+	#footer a, 
+	#footer a:link, 
+	#footer a:visited {border:0; margin:0; color: #fff; font-weight:bold;}
+	#footer a:hover, 
+	#footer a:active {background:none; color:#6e1c00;}
+	#footer p {color:#fff;}
+	
+	/* footer columns */
+	#footer .col-a,
+	#footer .col-b,
+	#footer .col-c {float:left; width:300px; padding-bottom:1.5em; font-size:14px;}
+	#footer .col-a {margin-right:45px;}
+	#footer .col-c {float:right;}
+	
+	#footer li, #footer dt, #footer dd {font-size:14px;}
+	
+	/* footer definition list */
+	#footer dl {float:left; width:250px; margin:.75em 0 0; padding:0; clear:both; color:#fff;}
+	#footer dt {float:left; clear:left; width:70px;}
+	#footer dd {margin: 0 0 0 80px; padding: 0 0 0.5em 0;}
+	
+
+/* Miscellaneous
+-------------------------------------------------------------------------------------*/
+	.clear {clear: both;}
+	.floatleft {float: left;}
+	.floatright {float: right;}
+	.inline {display: inline;}
+	em {font-style: italic;}
+		body.agenda em {font-style:italic; font-size: 90%;}
+	hr {border:0; margin:0 0 1.5em 0; padding:0; height:1px; background:#cad1bc; background:#cad1bc;}
+	.first {margin-top:0; padding-top:0;}
+	
+	/* clearfix */
+	.clearfix:after {visibility: hidden;display:block; font-size:0; content:" "; clear:both; height:0;}
+	* html .clearfix {zoom:1;} /* IE6 */
+	*:first-child+html .clearfix {zoom:1;} /* IE7 */
+
+
+/* Jump to content - for screen readers
+-------------------------------------------------------------------------------------*/
+	/* for screen readers */
+	#jumptocontent {position: absolute;top: -1000px;}

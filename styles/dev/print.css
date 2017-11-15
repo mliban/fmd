@@ -1,0 +1,148 @@
+body {
+	color: #999;
+	background-color: #fff;
+	background-image: none;
+	font: normal 100% "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-text-size-adjust: none;
+}
+
+div#introWrapper,
+div#intro,
+div#nomenclature,
+div#navigator,
+a#apply_button,
+h1,
+div#header ul,
+a#menu_button,
+img.aspecter,
+img.thumber,
+div#alternativeContent,
+object#flasher,
+div#gallery,
+/*div#sidebar,*/
+div#pager,
+div#callouts,
+div#sliderWrapper {
+	display: none;
+}
+
+
+div#headerWrapper {
+	width: 100%;
+	position: relative;
+}
+div#header {
+	position: relative;
+	margin: 0 auto 40px auto;
+	width: 990px;
+}
+img.printer {
+	margin: 0 auto;
+}
+
+div#videoWrapper {
+	position: relative;
+	width: 100%;
+	margin-bottom: 40px;
+}
+div#videoContainer {
+	position: relative;
+	margin: 0 auto;
+	width: 990px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+img.videoStill {
+	margin: 0 auto;
+}
+
+body.curSports img.videoStill {
+	border: 1px solid #ccc;
+}
+
+
+
+
+
+div#contentWrapper {
+	position: relative;
+	width: 100%;
+}
+div#contentContainer {
+	position: relative;
+	margin: 0 auto;
+	width: 990px;
+}
+
+div#contentContainer p,
+div#footer p,
+div#footer dl {
+	font-size: 1.25em;
+	line-height: 1.5em;
+	margin-bottom: 1.0em;
+}
+div#contentContainer h2,
+div#footer h2 {
+	font-weight: bold;
+	font-size: 1.75em;
+	line-height: 1.75em;
+	padding-top: 0.25em;
+	margin-bottom: 0.5em;
+}
+div#contentContainer a {
+	color: #000;
+	text-decoration: none;
+}
+
+
+div#content {
+	
+}
+
+div#galleryContainer {
+	clear: both;
+}
+
+div#contentContainer li {
+	font-size: 1.25em;
+	line-height: 1.5em;
+	list-style: disc outside !important;
+	margin-left: 100px;
+	color: #000;
+	/*margin-bottom: 1.0em;*/
+}
+div#sidebar a:link:after,
+div#sidebar a:visited:after {
+	content:" [" attr(href) "] ";
+}
+
+
+div#footerWrapper {
+	position: relative;
+	width: 100%;
+}
+div#footer {
+	position: relative;
+	margin: 0 auto;
+	width: 990px;
+}
+div.footerSection {
+	
+}
+div#footer dt {
+    float: left;
+    width: 90px;
+}
+div#footer dd {
+    margin-left: 100px;
+}
+div#footer p span {
+	white-space: nowrap;
+}
+div#footer a {
+	color: #000;
+	text-decoration: none;
+}
+

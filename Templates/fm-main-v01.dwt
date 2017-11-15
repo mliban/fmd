@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">>
+<!-- TemplateParam name="class" type="text" value="" -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]> <html class="no-js" lang="en"> <![endif]-->
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="pageTitle" -->
+<title>VCU Facilities Management</title>
+<!-- TemplateEndEditable -->
+<meta name="description" content=" VCU Facilities Management">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="description" content="VCU Facilities Management" />
+<meta name="viewport" content="width=990">
+<link rel="stylesheet" type="text/css" href="../styles/base.css" media="all" />
+<!--<link rel="stylesheet" type="text/css" href="../styles/print.css" media="print" />-->
+
+<!-- ADD TYPEKIT SCRIPT -->
+<script type="text/javascript" src="//use.typekit.net/ino6dgg.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="../images/vcu_logo_mobile.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../images/vcu_logo_mobile_2x.png"/>
+<link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" />
+
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body class="@@(_document['class'])@@">
+<div class="jumptocontent"><a href="#primary-content">Skip navigation</a></div>
+<div class="header-wrapper clearfix">
+	<div class="header">
+		<div class="identity">
+			<!-- TemplateBeginEditable name="dept-name" -->
+			<div class="site-name"><a href="../index.html" title="VCU Facilities Management">VCU Facilities Management</a></div>
+			<!-- TemplateEndEditable --> </div>
+		<!--end .identity--><!-- #BeginLibraryItem "/Library/util-nav-fm.lbi" -->	
+    <!-- Util Navigation -->
+    <ul class="util-nav">
+      <li class="nav-services"><a href="../services/index.html">Request Services </a></li>
+      <li class="nav-atoz"><a href="../atoz/index.html">A to Z Index</a></li>
+      <li class="nav-contacts"><a href="../contacts/index.html">Contacts</a></li>
+    </ul><!--end .main-nav-->
+   
+   
+    <!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/main-nav-fm.lbi" -->	
+    <!-- Main Navigation -->
+    <ul class="main-nav">
+      <li class="nav-about"><a href="../about/index.html">About Us</a></li>
+      <li class="nav-construction"><a href="../construction/index.html">Construction</a></li>
+      <li class="nav-capitalplanning"><a href="../capitalplanning/index.html">Capital Planning</a></li>
+      <li class="nav-planningdesign"><a href="../planningdesign/index.html">Planning and Design</a></li>
+      <li class="nav-physicalplant"><a href="../physicalplant/index.html">Physical Plant</a></li>
+      <li class="nav-realestate"><a href="../realestate/index.html">Real Estate Services</a></li>
+    </ul><!--end .main-nav-->
+   
+   
+    <!-- #EndLibraryItem --><div class="search">
+<form class="sitesearch" method="get" action="http://www.vcu.edu/search/" target="_blank">
+				<div>
+					<input type="hidden" name="proxystylesheet" value="default_frontend">
+					<label for="Search">Search: </label>
+					<input class="field" type="text" id="Search" name="Search" maxlength="100" value="Search" placeholder="Search" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+					<input type="hidden" name="sitesearch" value="http://www.fmd.vcu.edu/">
+					<input class="search_btn" type="image" src="../images/layout/search-btn-mask.gif" name="Search" alt="Search">
+				</div>
+			</form>
+		</div>
+		<!--end #search--> 
+		
+	</div>
+	<!--end .header--> 
+</div>
+<!--end .header-wrapper-->
+
+<div class="content-wrapper">
+	<div class="content-container clearfix">
+		<div class="primary-content clearfix"> <!-- TemplateBeginEditable name="featureContent" --> 
+			
+			<!--<div class="page-photo"><img src="http://placehold.it/720x320" alt="" /></div>--> 
+			
+			<!-- TemplateEndEditable -->
+			<div class="gutter clearfix"> <!-- TemplateBeginEditable name="mainContent" -->
+				<h2>Page Title Goes Here</h2>
+				<p> Lorem ipsum est <a href="#">scripserit referrentur ne</a>, eum ei fuisset postulant constituam. <a href="#">Mea ne modo putent (visited link).</a> Libris praesent hendrerit et duo, est ut offendit consequuntur. Percipit gubergren assueverit eum an, vix ad dictas tamquam praesent. </p>
+				<h3>H3 Headline</h3>
+				<p> Eruditi oporteat intellegebat no vim, id mentitum takimata interesset est, dolore doming ullamcorper duo an. In qui platonem electram salutandi, pro semper eleifend at. Decore diceret has ne. Ad qui oratio fabellas facilisis, cum illum debitis ne. Eum ad ullum iriure interpretaris. </p>
+				<p> Mollis molestie concludaturque vix an, usu amet omnesque atomorum in. Mel illud labore volumus ad, adhuc nulla putent an vel. No nam ferri suscipit, porro facer pro cu. Labore officiis honestatis ne has, ut sea offendit invidunt. Suas soleat et cum, sea cu debet sadipscing, per at tation ocurreret. </p>
+				<h4>H4 Headline</h4>
+				<p> Assum dolor vis ei, sit vivendum forensibus instructior ne. In vim molestie euripidis deterruisset. Id quo inani novum appareat, mel movet mucius ut. Detracto deseruisse liberavisse ne eum. Cetero fuisset expetenda ut cum, eum ne quot quidam equidem. Quis vulputate mel cu, eu dicat scripta cum. </p>
+				<h3>Ordered and Unordered Lists</h3>
+				<p> Est an illud singulis, deleniti inimicus vim id, has semper laboramus id. Verterem eleifend ad sit. Exerci dictas ponderum has an, pri augue graecis tractatos an, per ea solum graece omnesque. Est commodo aliquam interesset te, minim clita appetere ei his. At nam deserunt delicata. Doctus aperiri id eam, id appareat perfecto nec. </p>
+				<ul>
+					<li> Vestibulum ut elit eu massa malesuada tempus. </li>
+					<li> Nam quis leo at libero molestie accumsan. </li>
+					<li> Nunc varius est nec tellus. </li>
+					<li> Nunc tristique pede nec est. </li>
+					<li> Fusce in magna in arcu imperdiet ornare. </li>
+				</ul>
+				<p> Mel id possim scriptorem, tation epicuri urbanitas eu cum. Alterum inimicus ne mea, no vim iisque ancillae perfecto. Recusabo qualisque cum ut. Hinc duis concludaturque id vel, vix ne fuisset sapientem splendide. Doctus definitionem eu per. </p>
+				<ol>
+					<li> Integer pretium justo non est semper tempor. </li>
+					<li> Pellentesque accumsan wisi ac ante. </li>
+					<li> Proin ut dolor id urna molestie vulputate. </li>
+					<li> Nunc id tortor vitae nibh egestas vulputate. </li>
+					<li> Sed vitae sem et diam interdum sollicitudin. </li>
+				</ol>
+				<p> Munere aeterno scribentur at per, soluta iisque eu vel, summo philosophia nec an. Kasd apeirian pro ut, an est ponderum vituperata, aliquid conceptam mel in. Latine volumus efficiantur eu vis. Eos an nulla impedit adipisci, mei ex assum deserunt. Iisque maiestatis in nec, causae appareat eum te, sit ex natum placerat complectitur. </p>
+				<h3>Definition List</h3>
+				<dl>
+					<dt>Nec ei decore aperiam accumsan, quodsi offendit</dt>
+					<dd> Ex vel agam illum elaboraret, sit in essent veritus fuisset, vero graeco per ea. Ex has liber volutpat. Sea no mazim omnium dolores, sit at persius expetenda splendide, cetero evertitur ne sit. Te volutpat facilisis duo, vix id vidit vidisse. Quo id malorum ceteros. </dd>
+					<dt>Quod aeque repudiare at nam. Enim utroque adversarium ne has.</dt>
+					<dd> Usu eros nostrud volumus cu, detraxit referrentur ne eum. Has reque melius at, ea mea nostrud dolores. Mucius probatus referrentur in sit. </dd>
+					<dt>Cum nostrum fierent reprimique ex</dt>
+					<dd> Nec no wisi posidonium, mea facer ancillae cu. Oblique ancillae probatus nam no, sea at omittam phaedrum takimata. Ut diceret consequuntur sit, ad qui amet nostro. Mea ea invidunt accommodare. Nostrum albucius disputationi in eos. Pro dicam menandri persecuti ei. </dd>
+				</dl>
+				<h3>Blockquote</h3>
+				<p> At prima porro constituto eam, ei quo audire aliquando pertinacia. Nam lucilius adolescens eu, sint quas discere eam et. Ex commodo accusata vix. Omnis iriure pri no. Ut dicunt euripidis voluptatum sea, has ea nobis accusam. Mei te labores imperdiet. No per dicunt aliquip oporteat, et mel feugait atomorum, ex usu omnesque molestiae. </p>
+				<blockquote>
+					<p> Cum at temporibus cotidieque, an nullam essent vis. Sea facilis signiferumque in. Ius velit integre moderatius ad, falli sadipscing ex his. Doming consulatu nec ut, ea blandit albucius liberavisse usu, te vero inciderint mel. An mei atomorum forensibus, ut vel idque dicta reprehendunt. </p>
+					<p> Ea pro errem doming quaeque. Dicam nullam contentiones id sea. Mei veniam conceptam ex, pertinax quaestio vim ad. Ea dicit libris nostrum sed, mel ei cibo offendit convenire. Dolores evertitur incorrupte in eum, vis te dicta laboramus. </p>
+				</blockquote>
+				<p> Impedit mediocrem explicari mea ad, odio animal inciderint an vix. Epicuri posidonium per te, invidunt scribentur persequeris duo ex, te possim detraxit nam. Ut aeterno vocibus comprehensam vis, qui albucius corrumpit abhorreant no. Soleat dicunt persequeris vim no. Dicam tamquam molestiae ad eam, ut his magna percipit prodesset. </p>
+				<h3>Images</h3>
+				<p> Nam illud mollis ornatus ei. Eius democritum at vis, mei appareat invenire omittantur ad. Everti facilisis ex his, cum assum error omnesque ad. Eos illum feugiat definitiones ad. Novum inciderint pri et, vel senserit constituam no, nam homero saperet eu. </p>
+				<p> <img src="http://placehold.it/250x300" class="imgleft" alt="" /> An dico nostrud nec, nec animal numquam appetere at, oblique volutpat liberavisse eum cu. Ea autem dissentias eum. Vel munere mnesarchum definitiones in, inani tincidunt constituto eam ut. Pro alia summo constituto ex, usu cu autem alterum intellegam. Soleat imperdiet ex duo. Te pro quaeque feugait vituperata, oblique prodesset sed te. Ut vix erat dicit liberavisse, in euripidis consequat vix. </p>
+				<p> Eu has duis constituam, ex nostrud expetenda vix. Eu sit malorum suscipit maiestatis, choro graece adversarium et per. Ei sumo tempor sadipscing per, sea kasd recteque ex, quas adhuc sit ex. Ea adhuc erant eruditi vim, pro ad modo suavitate. Munere possit eos no, mucius qualisque in his, te vix odio insolens. Probo nostrum no sed, virtute reprehendunt vim eu.
+				<h3>Tables</h3>
+				<p> Audire mandamus deterruisset ne per. Vel eu gubergren efficiantur. Quidam doctus usu ei, falli everti commodo est ne, laudem putant id sed. Dolorum invidunt usu ex, ut delectus recteque democritum pri, cu pro labitur atomorum. Euismod mediocrem ei per, eum ne amet vide eius. </p>
+				<table>
+					<thead>
+						<tr>
+							<th>YEAR</th>
+							<th>MONTH</th>
+							<th>DAY</th>
+							<th>WEEKDAY</th>
+							<th>NOTES</th>
+						</tr>
+					</thead>
+					<tfoot>
+						<tr class="row2">
+							<td>--</td>
+							<td>--</td>
+							<td>15</td>
+							<td>--</td>
+							<td>--</td>
+						</tr>
+					</tfoot>
+					<tbody>
+						<tr class="row1">
+							<td>2005</td>
+							<td>April</td>
+							<td>1</td>
+							<td>Friday</td>
+							<td>April Fool's Day</td>
+						</tr>
+						<tr class="row2">
+							<td>2006</td>
+							<td>May</td>
+							<td>2</td>
+							<td>Tuesday</td>
+							<td>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</td>
+						</tr>
+						<tr class="row1">
+							<td>2007</td>
+							<td>June</td>
+							<td>3</td>
+							<td>Sunday</td>
+							<td>In elementum pede sit amet magna iaculis accumsan.</td>
+						</tr>
+						<tr class="row2">
+							<td>2008</td>
+							<td>July</td>
+							<td>4</td>
+							<td>Friday</td>
+							<td>Independence Day</td>
+						</tr>
+						<tr class="row1">
+							<td>2009</td>
+							<td>August</td>
+							<td>5</td>
+							<td>Wednesday</td>
+							<td>Vestibulum ut elit eu massa malesuada tempus.</td>
+						</tr>
+					</tbody>
+				</table>
+				<!-- TemplateEndEditable --> </div>
+			<!--end .gutter--> 
+		</div>
+		<!--end .primary-content-->
+		
+		<div class="secondary-content"> <!-- TemplateBeginEditable name="secondaryContent" --><!-- #BeginLibraryItem "/Library/sub-nav-test.lbi" -->
+
+    <!-- Sub Navigation -->
+			<h3>Section Title     </h3>
+			<ul id="sub-nav">
+				<li><a href="../#"><span>Test link</span></a>
+					<ul>
+						<li><a href="#">Link 1</a></li>
+						<li><a href="#">Link 2</a></li>
+						<li><a href="#">Link 3</a></li>
+					</ul>
+				</li>
+				<li><a href="../#"><span>Test link</span></a>
+					<ul>
+						<li><a href="#">Link 1</a></li>
+						<li><a href="#">Link 2</a></li>
+						<li><a href="#">Link 3</a></li>
+					</ul>
+				</li>
+				<li><a href="../#"><span>Test link</span></a>
+					<ul>
+						<li><a href="#">Link 1</a></li>
+						<li><a href="#">Link 2</a></li>
+						<li><a href="#">Link 3</a></li>
+					</ul>
+				</li>
+				<li><a href="../#"><span>Test link</span></a>
+					<ul>
+						<li><a href="#">Link 1</a></li>
+						<li><a href="#">Link 2</a></li>
+						<li><a href="#">Link 3</a></li>
+					</ul>
+				</li>
+				<li><a href="../#"><span>Test link</span></a></li>
+				<li><a href="../#"><span>Test link</span></a></li>
+			</ul>
+    
+    <!-- #EndLibraryItem --><!-- TemplateEndEditable --> </div>
+		<!--end .secondary-content--> 
+	</div>
+	<!--end .content-container--> 
+</div>
+<!--end .content-wrapper-->
+
+<div class="footer clearfix">
+	<div class="gutter"><!-- #BeginLibraryItem "/Library/footer-fm.lbi" -->	
+    	<!-- Footer Info -->
+        
+		<div class="col-a">
+			<ul>
+				<li><a href="http://www.vcu.edu" target="_blank">Virginia Commonwealth University</a></li>
+				<li><a href="../index.html">Facilities Management  Division</a></li>
+				<li>700 West Grace Street, Suite 2200</li>
+				<li>P.O. Box 842502</li>
+				<li>Richmond, Virginia 23284-2502</li>
+				<li>Office phone: (804) 828-9647</li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+		<p><!--end .col-a--></p>
+ 
+        
+        
+    <div class="col-b"><a href="http://sustainability.vcu.edu/"><img src="/images/SUS_Official Watermark.png" width="70" height="99" alt="Link to VCU office of sustainability" title="Link to VCU office of sustainability" ></a>
+<div class="clear"></div>
+    </div>
+    <!--end .col-b-->
+    
+
+	
+		<div class="col-c">
+	  <ul>
+				<li>Customer service: (804) 828-9444</li>
+				<li>Email: <a href="mailto:askfmd@vcu.edu">askfmd@vcu.edu</a></li>
+				<li>Updated: <!-- #BeginDate format:Am3 -->02/18/2016<!-- #EndDate --></li>
+				<li class="cs-link"><a href="http://www.creative.vcu.edu" target="_blank">Created by VCU University Relations</a></li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+        		<!--end .col-c-->
+<!-- #EndLibraryItem --><div class="clear"></div>
+	</div>
+	<!--end .gutter--> 
+</div>
+<!--end .footer--> 
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+<script>window.jQuery || document.write('<script src="/scripts/jquery-1.7.1.min.js"><\/script>')</script> 
+<script type="text/javascript" src="//www.pubapps.vcu.edu/identity/widgets/branding/gray/static/js/vcubranding-gray-1.0.js"></script>
+
+<script type="text/javascript" src="../scripts/jquery.highlightnav.js"></script> 
+<script type="text/javascript" src="../scripts/jquery.url.js"></script> 
+<script src="../scripts/global.js" type="text/javascript"></script> 
+<script src="../scripts/libs/jquery.expand.js" type="text/javascript"></script> 
+<script src="../scripts/respond.js" type="text/javascript"></script> 
+<!-- TemplateBeginEditable name="scripts" --> <!-- TemplateEndEditable --> 
+
+<!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID. --> 
+<script>
+var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+</body>
+</html>

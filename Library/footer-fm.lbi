@@ -1,0 +1,35 @@
+	
+    	<!-- Footer Info -->
+        
+		<div class="col-a">
+			<ul>
+				<li><a href="http://www.vcu.edu" target="_blank">Virginia Commonwealth University</a></li>
+				<li><a href="../index.html">Facilities Management  Division</a></li>
+				<li>700 West Grace Street, Suite 2200</li>
+				<li>P.O. Box 842502</li>
+				<li>Richmond, Virginia 23284-2502</li>
+				<li>Office phone: (804) 828-9647</li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+		<p><!--end .col-a--></p>
+ 
+        
+        
+    <div class="col-b"><a href="http://sustainability.vcu.edu/"><img src="/images/SUS_Official Watermark.png" width="70" height="99" alt="Link to VCU office of sustainability" title="Link to VCU office of sustainability" ></a>
+<div class="clear"></div>
+    </div>
+    <!--end .col-b-->
+    
+
+	
+		<div class="col-c">
+	  <ul>
+				<li>Customer service: (804) 828-9444</li>
+				<li>Email: <a href="mailto:askfmd@vcu.edu">askfmd@vcu.edu</a></li>
+				<li>Updated: <!-- #BeginDate format:Am3 -->02/09/2016<!-- #EndDate --></li>
+				<li class="cs-link"><a href="http://www.creative.vcu.edu" target="_blank">Created by VCU University Relations</a></li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+        		<!--end .col-c-->

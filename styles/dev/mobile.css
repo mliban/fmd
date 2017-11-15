@@ -1,0 +1,684 @@
+body {
+	color: #000;
+	background-image: none;
+}
+
+
+div#introWrapper,
+div#intro {
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /* IE 8 hack */
+	filter: alpha(opacity=0); /* IE 5-7 hack */
+}
+
+div#nomenclature {
+	display: none;
+}
+
+	
+div#navigator {
+	overflow: hidden;
+	width: 100%;
+	display: none;
+	
+	background-color: #ddd; /* Old browsers */
+	background: -moz-linear-gradient(top, #cccccc 0%, #dddddd 10%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cccccc), color-stop(10%,#dddddd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #cccccc 0%,#dddddd 10%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #cccccc 0%,#dddddd 10%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #cccccc 0%,#dddddd 10%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #cccccc 0%,#dddddd 10%); /* W3C */
+	
+	-webkit-box-shadow: inset 0px 2px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: inset 0px 2px 10px rgba(0, 0, 0, 0.2);
+	-o-box-shadow: inset 0px 2px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+div#navigator ul {
+	display: block;
+	margin: 10px 10px;
+}
+div#navigator li {
+	margin-bottom: 1px;
+}
+div#navigator li.homer {
+	display: block;
+	margin-bottom: 0;
+}
+div#navigator li a {
+	position: relative;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	background: #fff url(../../css/images/chevron_next_black.png) right center no-repeat;
+	padding: 10px 20px 10px 10px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 0.875em; /* 14px / 16px */
+	font-weight: bold;
+	word-wrap: break-word;	
+}
+div#navigator li a:hover {
+	color: #fff;
+	background-color: #00a4d8;
+	background-image: url(../../css/images/chevron_next_white.png);
+}
+div#navigator li a:active {
+	color: #fff;
+	background-color: #005493;
+	background-image: url(../../css/images/chevron_next_white.png);
+}
+div#navigator li.homer a {
+	text-align: center;
+	background-image: none;
+}
+div#navigator li.homer a:hover,
+div#navigator li.homer a:active {		background-image: none;}
+
+
+div#headerWrapper {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	background: transparent;
+	border: none;
+}
+div#header {
+	position: relative;
+	margin: 0;
+	width: 100%;
+		
+	background: #000; /* Old browsers */
+	background: -moz-linear-gradient(top, #5b5b5b 0%, #212121 50%, #0d0d0d 51%, #000000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5b5b5b), color-stop(50%,#212121), color-stop(51%,#0d0d0d), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #5b5b5b 0%,#212121 50%,#0d0d0d 51%,#000000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #5b5b5b 0%,#212121 50%,#0d0d0d 51%,#000000 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #5b5b5b 0%,#212121 50%,#0d0d0d 51%,#000000 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b5b5b', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #5b5b5b 0%,#212121 50%,#0d0d0d 51%,#000000 100%); /* W3C */
+}
+
+div#header img {
+	display: none;
+}
+
+
+a#apply_button {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: block;
+	width: 63px;
+	height: 44px;
+	background-image: url(../../css/images/button_apply.png);
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-indent: -5000px;
+	overflow: hidden;
+}
+a#apply_button:hover {
+	background: url(../../css/images/button_apply_selected.png) left top;
+}
+
+
+h1 {
+	position: relative;
+	display: block;
+	width: 110px;
+	height: 44px;
+	margin: 0 auto;
+}
+h1 a {
+	display: block;
+	width: 110px;
+	height: 44px;
+	background-image: url(../../css/images/vcu_logo_mobile.png);
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-indent: -5000px;
+	overflow: hidden;
+}
+
+
+div#header ul {
+	display: none;
+}
+
+
+a#menu_button {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	display: block;
+	width: 48px;
+	height: 44px;
+}
+
+span.menu_button {
+	display: block;
+	width: 48px;
+	height: 44px;
+	background-image: url(../../css/images/button_menu.png);
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-indent: -5000px;
+	overflow: hidden;
+}
+.open span.menu_button {
+	background-image: url(../../css/images/button_menu_selected.png);
+}
+
+
+div#videoWrapper {
+	position: relative;
+	width: 100%;
+	max-height: 405px;
+	padding: 0;
+	margin: 0;
+	border-top: none;
+	
+	background-color: #eee; /* Old browsers */
+	background: -moz-linear-gradient(top, #eeeeee 0%, #dddddd 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#dddddd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #eeeeee 0%,#dddddd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #eeeeee 0%,#dddddd 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #eeeeee 0%,#dddddd 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #eeeeee 0%,#dddddd 100%); /* W3C */
+}
+body.curHome div#videoWrapper {
+	margin: 0;
+	background-image: none;
+	background-color: #eee; /* Old browsers */
+	background: -moz-linear-gradient(top, #eeeeee 0%, #dddddd 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#dddddd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #eeeeee 0%,#dddddd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #eeeeee 0%,#dddddd 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #eeeeee 0%,#dddddd 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #eeeeee 0%,#dddddd 100%); /* W3C */
+}
+body.curSports div#videoWrapper {
+	margin: 0;
+	background-image: none;
+	background-color: #eee; /* Old browsers */
+	background: -moz-linear-gradient(top, #eeeeee 0%, #dddddd 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#dddddd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #eeeeee 0%,#dddddd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #eeeeee 0%,#dddddd 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #eeeeee 0%,#dddddd 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #eeeeee 0%,#dddddd 100%); /* W3C */
+}
+
+div#videoContainer {
+	position: relative;
+	padding-bottom: 56.25%;
+	width: 100%;
+	max-width: 720px;
+	margin: 0 auto;
+	height: 0;
+	overflow: hidden;
+}
+
+img.videoStill {
+	display: none;
+}
+body.curHome img.videoStill,
+body.curSports img.videoStill {
+	display: block;
+	width: 100%;
+}
+/* TURN OFF DISPLAY BLOCK WHEN HOMEPAGE VIDEO IS PUSHED LIVE */
+/*body.curSports img.videoStill {
+	display: block;
+	width: 100%;
+}*/
+
+object#flasher {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	max-height: 405px;
+}
+
+img.aspecter {
+	display: block;
+	z-index: -1000;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+div#alternativeContent div {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: auto;
+}
+
+div#alternativeContent video {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+div#alternativeContent img {
+	width: 100%;
+}
+
+
+div#contentWrapper {
+	position: relative;
+	width: 100%;
+	background-color: #fff;
+	border-top: 1px solid #ccc;
+}
+
+body.curDining div#contentWrapper,
+body.curHousing div#contentWrapper,
+body.curSports div#contentWrapper,
+body.curStudentlife div#contentWrapper,
+body.curAcademics div#contentWrapper {
+	background-image: none;
+}
+
+div#contentContainer {
+	position: relative;
+	width: 100%;
+	margin: 0;
+	border-top: none;
+	padding: 0;
+}
+div#contentContainer p,
+div#footer p,
+div#footer dl {
+	/*font-size: 0.875em; 14px / 16px */
+	font-size: 1.0em; /* 16px / 16px */
+	line-height: 1.5; /* 24px / 16px */
+	margin-bottom: 1.5em;
+}
+div#contentContainer h2,
+div#footer h2 {
+	font-family: sommet-slab, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	letter-spacing: 1px;
+	font-size: 1.625em; /* 26px / 16px */
+	line-height: 1.25em; /* 20px / 16px */
+	margin-bottom: 0.625em;
+}
+
+div#contentContainer {	color: #000;}
+
+div#contentContainer p.narrower,
+div#contentContainer h2.narrower,
+div#contentContainer p.narrowest,
+div#contentContainer h2.narrowest {
+	margin-right: 0;
+}
+div#contentContainer a {
+	color: #00a4d8;
+	text-decoration: none;
+}
+div#contentContainer a:hover {
+	text-decoration: underline;
+}
+
+div#content {
+	margin: 0;
+	padding: 24px 60px 0 60px;
+	border-left: none;
+	min-height: 100%;
+}
+
+
+div#galleryContainer {
+	clear: both;
+	padding: 0 20px;
+	margin: 0;
+}
+div#gallery {
+	float: none;
+	width: 100%;
+	max-width: 480px;
+	margin: 0 auto;
+	height: auto;
+	padding-bottom: 30px;
+}
+
+@media all and (max-width: 720px) {
+	div#content {
+		padding: 24px 20px 0 20px;
+	}
+}
+
+@media all and (max-width: 520px) {	
+	div#gallery {
+		width: 100%;
+		max-width: 480px;
+		margin: 0 auto;
+	}
+	
+	ul.slider {
+		position: relative;
+		overflow: hidden;
+		height: auto;
+	}
+	body.curDining ul.slider,
+	body.curHousing ul.slider,
+	body.curSports ul.slider,
+	body.curStudentlife ul.slider,
+	body.curAcademics ul.slider {		background-image: none;}
+	
+	div#pager h2 span {
+		display: none;
+	}
+}
+
+@media all and (max-width: 480px) {
+	a.slider-prev,
+	a.slider-next {				width: 50px;}
+}
+
+@media all and (max-width: 480px) and (orientation: landscape) {
+	div#videoContainer {
+		height: auto;
+		max-width: 320px;
+		max-height: 180px;
+		padding-bottom: 0;
+	}
+	object#flasher {
+		position: relative;
+		height: 180px;
+		max-height: 180px;
+	}
+	
+	
+	div#gallery {
+		width: 100%;
+		max-width: 320px;
+		margin: 0 auto;
+	}
+	
+	
+	div.slider-container {		padding-bottom: 30px;}
+	
+	a.slider-prev,
+	a.slider-next {				height: 30px;}
+	
+	div.swap-controls ol li a {	height: 30px;}
+}
+
+@media all and (max-width: 320px) {
+	div.slider-container {		padding-bottom: 30px;}
+	
+	a.slider-prev,
+	a.slider-next {				height: 30px;}
+	
+	div.swap-controls ol li a {	height: 30px;}
+	
+	a.slider-prev,
+	a.slider-next {				width: 30px;}
+}
+
+
+
+div#galleryText {
+	margin: 0;
+	padding: 0;
+}
+
+
+div#sidebar {
+	position: relative;
+	width: auto;
+	padding: 0 20px 30px 20px;
+}
+div#sidebar ul {
+	
+}
+div#sidebar li {
+	/*font-size: 0.875em; 14px / 16px */
+	font-size: 1.0em; /* 16px / 16px */
+	letter-spacing: 0px;
+	line-height: 1.5; /* 24px / 16px */
+	margin-bottom: 0.25em;
+}
+
+
+div#sidebar p.disclaimer {
+	color: #888;
+	font-size: 0.6875em; /* 10px / 16px */
+	line-height: 1.5em; /* 24px / 16px */
+	padding-top: 20px;
+}
+
+
+div#pager {
+	clear: both;
+	padding: 10px;
+	background-color: #ddd;
+}
+div#pager ul {
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	border: none;
+}
+
+div#pager li {
+	float: left;
+	width: 50%;
+	min-height: 100%;
+}
+div#pager li a {
+	display: block;
+	min-height: 100%;
+	background-image: none;
+	text-decoration: none;
+	padding: 12px 0 11px 0;
+}
+
+div#pager li.pagerPrev a {			background: #fff url(../../css/images/chevron_prev_blue.png) left center no-repeat; border-right: 1px solid #ddd; text-align: left; padding-right: 0px; padding-left: 30px;}
+div#pager li.pagerNext a {			background: #fff url(../../css/images/chevron_next_blue.png) right center no-repeat; text-align: right; padding-right: 30px; padding-left: 0px;}
+
+div#pager li.pagerPrev a:hover {	background: #00a4d8 url(../../css/images/chevron_prev_white.png) left center no-repeat;}
+div#pager li.pagerNext a:hover {	background: #00a4d8 url(../../css/images/chevron_next_white.png) right center no-repeat;}
+
+div#pager li.pagerPrev a:active {	background: #005493 url(../../css/images/chevron_prev_white.png) left center no-repeat;}
+div#pager li.pagerNext a:active {	background: #005493 url(../../css/images/chevron_next_white.png) right center no-repeat;}
+
+div#pager li a img,
+div#pager li a p {
+	display: none;
+}
+div#pager h2 {
+	font-size: 1.25em; /* 20px / 16px */
+	line-height: 1.75em; /* 28px / 16px */
+	margin-bottom: 0;
+}
+
+
+
+div#callouts {
+	display: block;
+	position: relative;
+	width: 100%;
+}
+div#callouts ul {
+	position: relative;
+	width: 100%;
+}
+div#callouts li {
+	width: 100%;
+}
+div#callouts li a {
+	display: block;
+	position: relative;
+	color: #000;
+	text-decoration: none;
+	background: #fff url(../../css/images/chevron_next_blue.png) no-repeat 100% 50%;
+	padding: 0 20px 0 85px;
+	border-bottom: 1px solid #ccc;
+	font-family: sommet-slab, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	letter-spacing: 0.75px;
+	font-size: 1.25em; /* 20px / 16px */
+	line-height: 70px;
+	word-wrap: break-word;
+	min-height: 70px;
+}
+div#callouts li a img {
+	position: absolute;
+	bottom: 0px;
+	left: 5px;
+}
+div#callouts li:last-child a {
+	border-bottom: none;
+}
+div#callouts li a:hover {
+	color: #fff;
+	background-color: #00a4d8;
+	background-image: url(../../css/images/chevron_next_white.png);
+}
+div#callouts li a:active {
+	color: #fff;
+	background-color: #005493;
+	background-image: url(../../css/images/chevron_next_white.png);
+}
+
+
+
+div#sliderWrapper {
+	display: none;
+}
+
+
+
+div#footerWrapper {
+	padding: 0;
+}
+div#footer {
+	position: relative;
+	width: auto;
+	padding: 30px 20px 30px 20px;
+	margin: 0;
+}
+div.footerSection {
+	float: none;
+	width: 100%;
+	margin: 0;
+	padding-bottom: 20px;
+}
+div#footer dt {
+    float: left;
+    width: 70px;
+}
+div#footer dd {
+    margin-left: 80px;
+	margin-bottom: 1.0em;
+}
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+screen and (-o-min-device-pixel-ratio: 2),
+screen and (min-device-pixel-ratio: 2)
+{
+	a#menu_apply,
+	h1 a,
+	span.menu_button,
+	div#callouts li a span,
+	div#pager li a {
+		-webkit-background-size: 100%;
+		-moz-background-size: 100%;
+		-o-background-size: 100%;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	
+	
+	div#navigator li a {
+		background-image: url(../../css/images/chevron_next_black_2x.png);
+		background-size: 20px 14px;
+	}
+	div#navigator li a:hover,
+	div#navigator li a:active {
+		background-image: url(../../css/images/chevron_next_white_2x.png);
+	}
+	
+	
+	a#apply_button {			background-image: url(../../css/images/button_apply_2x.png);}
+	a#apply_button:hover {		background-image: url(../../css/images/button_apply_selected_2x.png); background-position: left top;}
+	h1 a {						background-image: url(../../css/images/vcu_logo_mobile_2x.png);}
+	span.menu_button {			background-image: url(../../css/images/button_menu_2x.png);}
+	.open span.menu_button {	background-image: url(../../css/images/button_menu_selected_2x.png);}
+	
+	
+	div#pager li.pagerPrev a {
+		background-image: url(../../css/images/chevron_prev_blue_2x.png);
+		background-size: 20px 14px;
+	}
+	div#pager li.pagerPrev a:hover,
+	div#pager li.pagerPrev a:active {
+		background-image: url(../../css/images/chevron_prev_white_2x.png);
+	}
+	
+	
+	div#pager li.pagerNext a {
+		background-image: url(../../css/images/chevron_next_blue_2x.png);
+		background-size: 20px 14px;
+	}
+	div#pager li.pagerNext a:hover,
+	div#pager li.pagerNext a:active {
+		background-image: url(../../css/images/chevron_next_white_2x.png);
+	}
+	
+	
+	div#callouts li a {
+		background-image: url(../../css/images/chevron_next_blue_2x.png);
+		background-size: 20px 14px;
+	}
+	div#callouts li a:hover,
+	div#callouts li a:active {
+		background-image: url(../../css/images/chevron_next_white_2x.png);
+	}
+	
+	
+	a.slider-prev,
+	a.slider-next {
+		background-size: 22px 40px;
+	}
+	a.slider-prev {		background-image: url(../../css/images/slideshow_arrow_left_2x.png);}
+	a.slider-next {		background-image: url(../../css/images/slideshow_arrow_right_2x.png);}
+	
+	
+	div.swap-controls ol li a {
+		background-size: 22px 30px;
+		background-image: url(../../css/images/slideshow_circle_small_2x.png);
+	}
+	
+	li.swap-button.current a {
+		background-size: 22px 30px;
+		background-image: url(../../css/images/slideshow_circle_big_2x.png);
+	}
+
+}
+
+
