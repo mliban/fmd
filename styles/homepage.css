@@ -4,10 +4,19 @@
 /* ---------------------------------------------------------------------------------------------
     UPDATES FOR ACCESSIBILITY AND COMPLIANCE - 11/15/2017
 ------------------------------------------------------------------------------------------------*/
-	#slider a:focus,
-	a:focus{
-		border:#333 1px solid;
-	}
+    h1{
+      color:#fff;
+      font-family: "franklin-gothic-urw-comp", "franklin-gothic-urw-cond", "Arial Narrow", "franklin-gothic-urw", "Helvetica Neue", helvetica, arial, sans-serif;
+      text-transform: uppercase;
+      font-size: 380%;
+      font-weight:bold;
+      padding-top:26px;
+    }
+
+    #slider a:focus,
+    a:focus{
+      border:#333 1px solid;
+    }
     a:hover {
      text-decoration: underline;
     }
