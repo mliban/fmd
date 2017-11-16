@@ -51,13 +51,14 @@
      list-style: outside none;
     }
 
-	input#Search.field:focus{
-	  border: 1px solid rgba(81, 203, 238, 1);
-	}
+    input#Search.field:focus{
+      border: 1px solid rgba(81, 203, 238, 1);
+    }
 
-	.footer a:focus{
-		border:#fff 1px solid;
-	}
+    .footer a:focus,
+    .identity a:focus{
+      border: #fff 1px solid;
+    }
 
 /* ---------------------------------------------------------------------------------------------
     Main Homepage Layout
