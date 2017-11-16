@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><!-- InstanceBegin template="/Templates/fm-main-v01.dwt" codeOutsideHTMLIsLocked="false" -->>
+<html lang="en"><!-- InstanceBegin template="/Templates/fm-main-v01.dwt" codeOutsideHTMLIsLocked="false" -->
 <!-- InstanceParam name="class" type="text" value="sub realestate" -->
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
@@ -34,7 +34,9 @@
 </head>
 
 <body class="sub realestate">
-<div class="jumptocontent"><a href="#primary-content">Skip navigation</a></div>
+<div id="skip-links">
+  <a href="#maincontent" class="skip-links-item" tabindex="1">Skip to main content</a>
+</div>
 <div class="header-wrapper clearfix">
 	<div class="header">
 		<div class="identity">
@@ -63,15 +65,19 @@
    
    
     <!-- #EndLibraryItem --><div class="search">
-<form class="sitesearch" method="get" action="http://www.vcu.edu/search/" target="_blank">
-				<div>
-					<input type="hidden" name="proxystylesheet" value="default_frontend">
-					<label for="Search">Search: </label>
-					<input class="field" type="text" id="Search" name="Search" maxlength="100" value="Search" placeholder="Search" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-					<input type="hidden" name="sitesearch" value="http://www.fmd.vcu.edu/">
-					<input class="search_btn" type="image" src="../images/layout/search-btn-mask.gif" name="Search" alt="Search">
-				</div>
-			</form>
+		
+		
+		
+		<form class="sitesearch" action="//search.vcu.edu/search" method="get">
+		  <input type="hidden" name="proxystylesheet" value="default_frontend" />
+		  <input type="hidden" name="sitesearch" value="fmd.vcu.edu" />
+		  <input class="field" type="text" id="Search" name="Search" maxlength="100" value="Search" placeholder="Search" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"
+		  aria-label="Search text field" />
+		  <input class="search_btn" type="image" src="../images/layout/search-btn-mask.gif" name="Search" alt="Search" />
+		</form>
+		
+		
+
 		</div>
 		<!--end #search--> 
 		
@@ -87,6 +93,7 @@
       <!--<div class="page-photo"><img src="http://placehold.it/720x320" alt="" /></div>-->
     
     <!-- InstanceEndEditable -->
+			<a id="maincontent"></a>
 			<div class="gutter clearfix"> <!-- InstanceBeginEditable name="mainContent" -->
 	<h3>Real Estate Services </h3>
 	<p><img src="../images/photos/preparedness.jpg" alt="Students in the snow" class="main-img"></p>
@@ -170,7 +177,9 @@ Email: <a href="mailto:krslutzah@vcu.edu">krslutzah@vcu.edu</a></p>
 	  <ul>
 				<li>Customer service: (804) 828-9444</li>
 				<li>Email: <a href="mailto:askfmd@vcu.edu">askfmd@vcu.edu</a></li>
-				<li>Updated: <!-- #BeginDate format:Am3 -->02/09/2016<!-- #EndDate --></li>
+		  		<li><a href="https://www.vcu.edu/vcu/privacy-statement.html">Privacy</a> | <a href="http://accessibility.vcu.edu/">Accessibility</a> | <a href="mailto:webmaster@vcu.edu">Webmaster</a></li>
+				<li>Updated: <!-- #BeginDate format:Am3 -->11/15/2017<!-- #EndDate --></li>
+		  		<li><a href="http://ts.vcu.edu/cgi-bin/posh.pl?posh_referer=https://ts.vcu.edu/">View text version</a></li>
 				<li class="cs-link"><a href="http://www.creative.vcu.edu" target="_blank">Created by VCU University Relations</a></li>
 			</ul>
 			<div class="clear"></div>
@@ -182,25 +191,28 @@ Email: <a href="mailto:krslutzah@vcu.edu">krslutzah@vcu.edu</a></p>
 </div>
 <!--end .footer--> 
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
-<script>window.jQuery || document.write('<script src="/scripts/jquery-1.7.1.min.js"><\/script>')</script> 
-<script type="text/javascript" src="//www.pubapps.vcu.edu/identity/widgets/branding/gray/static/js/vcubranding-gray-1.0.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+	<script>window.jQuery || document.write('<script src="/scripts/jquery-1.7.1.min.js"><\/script>')</script> 
+	<script src="//branding.vcu.edu/bar/academic/latest.js" data-color-top-campaign="graydark"></script>
 
-<script type="text/javascript" src="../scripts/jquery.highlightnav.js"></script> 
-<script type="text/javascript" src="../scripts/jquery.url.js"></script> 
-<script src="../scripts/global.js" type="text/javascript"></script> 
-<script src="../scripts/libs/jquery.expand.js" type="text/javascript"></script> 
-<script src="../scripts/respond.js" type="text/javascript"></script> 
-<!-- InstanceBeginEditable name="scripts" -->
+	<script type="text/javascript" src="../scripts/jquery.highlightnav.js"></script> 
+	<script type="text/javascript" src="../scripts/jquery.url.js"></script> 
+	<script src="../scripts/global.js" type="text/javascript"></script> 
+	<script src="../scripts/libs/jquery.expand.js" type="text/javascript"></script> 
+	<script src="../scripts/respond.js" type="text/javascript"></script> 
+	<!-- InstanceBeginEditable name="scripts" -->
 
 <!-- InstanceEndEditable --> 
 
-<!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID. --> 
-<script>
-var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-s.parentNode.insertBefore(g,s)}(document,'script'));
-</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109755125-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-109755125-1');
+	</script>
+
 </body>
 <!-- InstanceEnd --></html>
